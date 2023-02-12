@@ -42,5 +42,5 @@ Widget build(BuildContext context)
 }
 ````
 
-Dentro dele, temos várias propriedades que poderão ser utilizadas, você pode vê-las na integra na [documentação oficial] (https://api.flutter.dev/flutter/material/MaterialApp-class.html)
+Dentro dele, temos várias propriedades que poderão ser utilizadas, você pode vê-las na integra na [documentação oficial](https://api.flutter.dev/flutter/material/MaterialApp-class.html)
 
