@@ -16,7 +16,7 @@ Imagine que seu aplicativo é uma casa, cada widget é um tijolo que fará parte
 
 #### No seu projeto Flutter, dentro do arquivo main.dart está a primeira página do seu projeto, que é criada automaticamente como exemplo pelo Flutter. 
 
-A função é a raíz do seu projeto. 
+Essa função é a raíz. 
 
 ```
 void main() {
@@ -31,4 +31,16 @@ A classe que é utilizada como parâmetro nessa função terá o contexto da nos
 ````
  Widget build(BuildContext context){}
  ````
+
+ Dentro desse Widget, começamos a implementar os Widgets da nossa tela.
+ No caso do exemplo, temos o MaterialApp.
+
+ ````
+Widget build(BuildContext context) 
+{
+    return MaterialApp();
+}
+````
+
+Dentro dele, temos várias propriedades que poderão ser utilizadas, você pode vê-las na integra na [documentação oficial] (https://api.flutter.dev/flutter/material/MaterialApp-class.html)
 
